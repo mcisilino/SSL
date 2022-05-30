@@ -17,7 +17,7 @@ int main()
             c=tolower(c);
             putchar(c);
         }
-        else if(isdigit(c)==NULL) {
+        else if(!isdigit(c)) {
             putchar(c);
         }
         c=getchar();
